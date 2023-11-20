@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+header {
+  background-image: url(../imgs/Group\ 19.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+body {
+  background: linear-gradient(white, whitesmoke);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link button {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #13183F;
+  color: white;
+  cursor: pointer;
+}
+.link button:hover {
+  opacity: 0.5;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .left {
+  padding: 170px 0px;
+}
+.hero .left h1 {
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+.hero .left button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.hero .left button:hover {
+  opacity: 0.5;
+}
+.hero .right {
+  display: none;
+}
+.hero .righ {
+  display: none;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.cards .card1 {
+  width: 350px;
+  height: 250px;
+  padding: 20px;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: white;
+  border-radius: 20px;
+}
+.cards .card1 h1 {
+  width: 200px;
+  font-size: 32px;
+}
+.cards .card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+}
+.cards .card h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cards .card p:nth-child(3) {
+  width: 250px;
+}
+.cards .card p:nth-child(4) {
+  color: #F02AA6;
+  margin-top: 20px;
+}
+
+.lop {
+  background-color: #13183F;
+}
+.lop .koko button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(#4851FF, #F02AA6);
+  color: white;
+  cursor: pointer;
+}
+.lop .koko button:hover {
+  opacity: 0.5;
+}
+.lop .lopi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 468px) {
+  header {
+    background-image: none;
+  }
+  .navbar {
+    margin-bottom: 100px;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero .righ {
+    display: block;
+  }
+  .hero .righ img {
+    width: 100%;
+  }
+  .hero .left {
+    padding: 10px;
+  }
+  .hero .right img {
+    display: none;
+  }
+  .container {
+    padding: 20px;
+  }
+}
+@media (max-width: 790px) {
+  header {
+    background-image: none;
+  }
+  .hero {
+    padding: 10px;
+    margin-top: -100px;
+  }
+  .hero .right {
+    display: block;
+  }
+  .hero .right img {
+    width: 100%;
+  }
+  .navbar {
+    padding: 20px;
+  }
+  .lop {
+    padding: 0px 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
